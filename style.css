@@ -10,6 +10,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 .wrapper {
   display: inline-grid;
   border: 2px solid #fff;
