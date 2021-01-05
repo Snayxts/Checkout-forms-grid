@@ -1,0 +1,9 @@
+.wrapper {
+  display: grid;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, minmax(100px, 500px));
+}
