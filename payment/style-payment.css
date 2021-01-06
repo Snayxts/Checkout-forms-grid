@@ -1,0 +1,109 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.review {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.radio-boxes {
+  box-shadow: var(--shadow);
+  display: grid;
+}
+
+.order-total {
+  width: 320px;
+  height: 250px;
+  padding: 10px;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+}
+
+.order-total-boxes {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 50px 100px;
+  margin-left: 5px;
+}
+
+.box1 {
+  border-bottom: royalblue 2px solid;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50px;
+  font-size: 24px;
+  align-items: center;
+}
+
+.box2 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.box2 > p {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.radio-boxes > h2,
+label {
+  margin: 5px 20px 0 0px;
+}
+
+.payment-cards {
+  display: grid;
+  margin: 20px;
+  gap: 40px;
+  grid-template-rows: repeat(2, 1fr);
+  width: 620px;
+  box-shadow: var(--shadow);
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+.boxess {
+  display: grid;
+}
+
+.payment-inputs {
+  padding: 5px;
+  width: 250px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.buy {
+  margin-top: -60px;
+  background: #57b3dd;
+  border: none;
+  box-shadow: var(--shadow);
+  color: var(--light);
+  font-size: 16px;
+  width: 200px;
+  margin-left: 170px;
+  height: 40px;
+}
+
+.buy:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.boxess2 {
+  display: none;
+}
